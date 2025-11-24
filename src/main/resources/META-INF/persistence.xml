@@ -7,7 +7,10 @@
     <persistence-unit name="projet1PU" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 
-        <class></class>
+        <class>sn.edu.isepat.tic.DFE.p6.diey.entities.Utilusateur</class>
+        <class>sn.edu.isepat.tic.DFE.p6.diey.entities.Profil</class>
+
+
 
         <properties>
             <!-- JDBC -->
